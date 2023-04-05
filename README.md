@@ -50,7 +50,6 @@ Folders:
 Current Libraries:
 * org.xerial.sqlite-jdbc (SQLite JDBC library)
 * javalin (lightweight Java Webserver)
-* thymeleaf (HTML template) - https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html
 
 Libraries required as dependencies:
 * By javalin
@@ -99,11 +98,7 @@ The ```.devcontainer``` folder contains configuration files for GitHub Codespace
 This ensures that when the GitHub classroom is cloned, the workspace is correctly configured for Java (V16) and with the required VSCode extensions.
 This folder will not affect a *local* VSCode setup on a computer.
 
-**🚨 DO NOT MODIFY THE CONTENTS OF THIS FOLDER. 🚨**
-
 # Authors
-* Dr. Timothy Wiley, School of Computing Technologies, STEM College, RMIT University.
-* Prof. Santha Sumanasekara, School of Computing Technologies, STEM College, RMIT University.
-
-Copyright RMIT University (c) 2022
+* Chee Kin Go (Kent), Bachelor of Computer Science, School of Computing Technologies, STEM College, RMIT University.
+* Yoan Mario, Bachelor of Computer Science, School of Computing Technologies, STEM College, RMIT University.
 
