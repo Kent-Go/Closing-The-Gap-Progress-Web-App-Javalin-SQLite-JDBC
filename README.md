@@ -1,26 +1,20 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8815825&assignment_repo_type=AssignmentRepo)
-# Studio Project Starter Code (Semester 2 - September 2022)
-Starter code for the Studio Project. This is a simple layout connected to a GitHub Classroom that serves as the basis for implementing the studio project. 
+# Closing The Gap Web App RMIT Studio Project (Semester 2 - September 2022)
 
-This example program provides:
+Closing the Gap Web App aims to address the social challenge: Closing the Gap, through assisting the Agreement parties in viewing the progress made by each party in overcoming the 17 socioeconomic inequalities faced by Aboriginal and Torres Strait Islander people, and empowering Aboriginal people&apos;s capability in accessing all related data and information digitally to make informed decision-makings with the governments in order to accelerate the Agreement&apos;s progress.
 
-* A Java class for the Index page (index.html).
-* 6x Java classes for 6 pages. Additional pages can be added by adding additional classes.
+This app contains:
+* Java PageIndex class for the Home page (index.html)
+* Java AboutUs class for the About Us page (about.html)
+* Java Latest2021Data class for the Latest 2021 Data page (latest-2021-data.html.html)
+* Java FocusLgaState class for the Focus by LGA page (focus-lga-state.html)
+* Java GapScores class for the Gap Scores page (gap-scores.html)
+* Java FindSimilarLga class for the Find Similar LGAs page (find-similar-lga.html)
 * JDBCConnection Java class, that uses the CTG Database. This class contains one method to return all LGAs contained in the Database.
-* Examples CSS (```common.css```) file in the resources directory.
-* Example image (```logo.png```) file in the resources directory with where to locate any images you want on your website
-* Starting database:
+* Database:
     * ```ctg.db``` - contains a starting database for you based on the example CTG ER Model.
 * Optional helper program (``CTGProcessCSV.java``) that shows an example of how to load the SQLite database by using Java to read the CSV files and JDBC insert statements to update the CTG SQLite database.
 * Optional helper SQL files (```ctg_create_tables.sql```) that creates two tables (```LGA``` and ```PopulationStatistics```) based on the example CTG ER Model.
-
-Classes backing Web pages:
-```bash
-├── Index.java                    - Homepages/index page. Provides a directory to all other pages
-├── Page1.java                    - Sets of 6 other Java class files backing 6 other pages.
-├── ...
-└── Page6.java                        
-```
 
 Other Classes:
 ```bash
@@ -89,7 +83,7 @@ You can modify this file as you wish, for other tables and CSVs. When modifying 
     * Column data being stored
 
 ## Testing on GitHub Codespaces
-In Semester 2 2022, you will have access to GitHub Codespaces through the RMIT GitHub Organisation. It is highly recommended to test that your code is fully functional in Codespaces.
+In Semester 2 2022, student have access to GitHub Codespaces through the RMIT GitHub Organisation. It is highly recommended to test that your code is fully functional in Codespaces.
 
 GitHub Codespaces will be used as the common location to test and verify your studio project. Specifically, GitHub Codespaces will be used to verify your project in the event the code does not correctly function on the local assessor's computer.
 
