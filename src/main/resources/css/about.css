@@ -1,0 +1,302 @@
+/* External CSS style file */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-open-sans: 'Open Sans', sans-serif;
+}
+
+body {
+   font-family: var(--font-open-sans);
+   background: #f1f1f1;
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: auto; 
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #00FFFF;
+  color: black;
+}
+
+.topnav .current_page {
+  text-decoration: underline;
+}
+/* /Navigation bar */
+
+/* Header (div) formatting */
+.header {
+   padding: 0;
+}
+
+ /* Site Banner */
+.header .banner-img {
+  width: 100vw;
+  height: 85vh;
+  object-fit: cover;
+  filter: brightness(75%);
+  
+}
+
+.header .banner-text {
+    position: absolute;
+    z-index: 2;
+    bottom: 50vh;
+    left: 10rem;
+    padding: 0 0;
+    margin: 0 0;
+    width: fit-content;
+}
+
+.header .banner-text h3 {
+  text-align: left;
+} 
+
+.header .banner-text h1 {
+  text-align: left;
+} 
+
+.header .banner-text h3 > span {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  line-height: 0;
+}
+
+.header .banner-text h1 > span {
+   font-size: 50px;
+   color: white;
+   line-height: 90%;
+}
+ /* /Site Banner */
+
+ /* Site Purpose */
+.site-main .site-purpose {
+  position: relative;
+  margin: 0 0;
+  padding: 3rem 10rem 1rem 10rem;
+}
+
+.site-main .site-purpose h3 {
+  text-align: left;
+} 
+
+.site-main .site-purpose p {
+  margin-top: 2rem;
+  line-height: 25px;
+} 
+
+.site-main .site-purpose h3 > span {
+  font-size: 30px;
+  color: black;
+  line-height: 0;
+}
+ /* /Site Purpose */
+
+ /* Site Data */
+.site-main .site-data {
+  position: relative;
+  margin: 0 0;
+  padding: 0rem 10rem 3rem 10rem;
+}
+
+.site-main .site-data .card {
+  background-color: #FABD0B;
+  margin-top: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 15px; 
+  display: flex;
+}  
+
+.site-main .site-data .card .card-text, .site-main .site-data .card .card-img {
+  flex: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.site-main .site-data .card .card-text {
+  padding-right: .5rem;
+}
+
+.site-main .site-data .card .card-text .data-title {
+  margin-bottom: 1.25rem;
+}
+
+.site-main .site-data .card .card-text .data-title h3{
+  margin: 0;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.site-main .site-data .card .card-text .data-desc p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.site-main .site-data .card .card-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px; 
+}
+ /* /Site Data */
+
+  /* Site Persona */
+.site-main .site-persona {
+  position: relative;
+  margin: 0 0;
+  padding: 3rem 10rem 3rem 10rem;
+  border-top: solid;
+  border-width: 1px;
+}
+
+.site-main .site-persona h3 > span {
+  font-size: 30px;
+  color: black;
+}
+
+.site-main .site-persona .persona-container {
+  display: flex;
+  margin-bottom: 2rem;
+} 
+
+.site-main .site-persona .persona-container .persona-text{
+  flex: 70%;
+  padding-right: 2rem;
+} 
+
+.site-main .site-persona h3 {
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+} 
+
+
+.site-main .site-persona p {
+  margin: 0;
+  font-style: italic;
+} 
+
+
+.site-main .site-persona .persona-container .persona-img{
+  flex: 30%;
+} 
+
+.site-main .site-persona .persona-container .persona-img img{
+  margin-top: 1.5rem;
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: black solid; 
+} 
+
+ /* /Site Persona */
+ 
+ /* Made By */
+ .site-main .made-by {
+  position: relative;
+  margin: 0 0;
+  padding: 3rem 10rem 3rem 10rem;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.site-main .made-by .made-by-title {
+  margin-bottom: 1rem;
+}
+
+.site-main .made-by .made-by-title > h3{
+  margin: 0;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+}
+
+.site-main .made-by .made-by-desc h5{
+  margin: 0;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+/* /Made By */
+
+ /* Style the footer */
+/* Style the footer */
+.footer {
+  background-color: #cccccc;
+}
+
+.footer-content{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-content h2{
+  line-height: 50px;
+  vertical-align: middle;
+  width: 45%;
+  display: flex;
+}
+
+.line {
+  border-left: solid;
+  height: 350px; 
+  display: flex;
+}
+
+.links {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a{   
+  background-color: #000000;
+  margin-top: 20px;
+
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #00FFFF;;
+
+  display: flex;
+  line-height: 50px;
+  flex-direction: column;
+}
+
+.links a:hover{
+  text-decoration: underline;
+}
+
+.link-column{
+  width: 45%;
+  margin: 2.5% 2.5% 2.5% 2.5%;
+}
+
+.footer p{
+  float: left;
+}

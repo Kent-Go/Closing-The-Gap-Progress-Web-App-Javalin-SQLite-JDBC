@@ -1,0 +1,187 @@
+/* External CSS style file */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-open-sans: 'Open Sans', sans-serif;
+}
+
+body {
+   font-family: var(--font-open-sans);
+   background: #f1f1f1;
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: auto; 
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #00FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #00FFFF;
+  color: black;
+}
+
+.topnav .current_page {
+  text-decoration: underline;
+}
+/* /Navigation bar */
+
+/* Header Area*/
+.header-area {
+    margin: 0;
+    padding: 4rem 0rem 4rem 0rem;
+ }
+
+.header-area .header-text {
+    width: fit-content;
+   margin: auto;
+ }
+
+ 
+.header-area .header-text h1 {
+    font-size: 50px;
+    color: black;
+    margin: 0;
+}
+
+.header-area .header-text p {
+    font-size: 20px;
+    font-weight: 500;
+     color: black;
+     margin-top: .5rem;
+     margin-bottom: 0;
+     text-align: center;
+  }
+/* /Header Area*/
+
+/* Table */ 
+/* Adapted from W3School HTML Table Tutorial
+*/
+.body-area {
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.body-area .outcome_div {
+  margin-bottom: .5rem;
+}
+
+.body-area label {
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+#display_filter label {
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+}
+
+.outcome_title, .dataset_title, .sort_by_desc {
+  text-align: center;
+}
+
+.result_container {
+  display: flex;
+}
+
+.result_container .data_insight {
+  margin-left: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  height: 700px;
+  overflow-y: scroll;
+  padding: 8px;
+  display: block
+}
+
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+}
+
+thead { background-color: #7ACABD; }
+tbody { background-color: #dddddd; }
+
+/* /Table */
+
+/* Style the footer */
+.footer {
+  background-color: #cccccc;
+}
+
+.footer-content{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-content h2{
+  line-height: 50px;
+  vertical-align: middle;
+  width: 45%;
+  display: flex;
+}
+
+.line {
+  border-left: solid;
+  height: 350px; 
+  display: flex;
+}
+
+.links {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a{   
+  background-color: #000000;
+  margin-top: 20px;
+
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  color: #00FFFF;;
+
+  display: flex;
+  line-height: 50px;
+  flex-direction: column;
+}
+
+.links a:hover{
+  text-decoration: underline;
+}
+
+.link-column{
+  width: 45%;
+  margin: 2.5% 2.5% 2.5% 2.5%;
+}
+
+.footer p{
+  float: left;
+}

@@ -1,0 +1,28 @@
+PRAGMA foreign_keys = OFF;
+drop table if exists Outcomes;
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE Outcomes (
+    OutcomeID             INTEGER NOT NULL,
+    OutcomeName           TEXT NOT NULL,
+    OutcomeDescription    TEXT NOT NULL,
+    PRIMARY KEY (OutcomeID)
+);
+
+INSERT INTO Outcomes VALUES (1, 'Aboriginal and Torres Strait Islander people enjoy long and healthy lives.', 'This outcome focuses on improving the quality of life of Aboriginal and Torres Strait Islander people, by increasing their life expectancy and reducing how affected they are by long-term health conditions.');
+INSERT INTO Outcomes VALUES (2, 'Aboriginal and Torres Strait Islander children are born healthy and strong.', 'The focus of this outcome is to increase the number of Aboriginal and Torres Strait Islander children born with a healthy birthweight.');
+INSERT INTO Outcomes VALUES (3, 'Aboriginal and Torres Strait Islander children are engaged in high quality, culturally appropriate early childhood education in their early years', 'The goal of this outcome is to increase the number of Aboriginal and Torres Strait Islander children that are enrolled in Year Before Full time Schooling (YBFS) during early childhood.');
+INSERT INTO Outcomes VALUES (4, 'Aboriginal and Torres Strait Islander children thrive in their early years', 'This outcome aims to increase how many Aboriginal and Torres Strait Islander children are developmentally on track in all five domain of the Australian Early Development Census (AEDC)');
+INSERT INTO Outcomes VALUES (5, 'Aboriginal and Torres Strait Islander students achieve their full learning potential.', 'The goal of this outcome is to increase the number of Aboriginal and Torres Strait Islander people(aged 20-24 years) who attain a Year 12 or equivalent qualification');
+INSERT INTO Outcomes VALUES (6, 'Aboriginal and Torres Strait Islander students reach their full potential through further education pathways.', 'The goal of this outcome is to increase the number of Aboriginal and Torres Strait Islander(aged 25-34 years) people who have attained a tertiary qualification.');
+INSERT INTO Outcomes VALUES (7, 'Aboriginal and Torres Strait Islander youth are engaged in employment or education.', 'The focus of this outcome is to increase the number of Aboriginal and Torres Strait Islander youth(aged 15-24 years) who are in employment or education.');
+INSERT INTO Outcomes VALUES (8, 'Strong economic participation and development of Aboriginal and Torres Strait Islander people and communities.', 'This outcomes aims to increase how many Aboriginal and Torres Strait islander people(aged 25-64 years) are employed.');
+INSERT INTO Outcomes VALUES (9, 'Aboriginal and Torres Strait Islander people secure appropriate, affordable housing that is aligned with their priorities and need.', 'The goal of this outcome is to increase the number of Aboriginal and Torres Strait Islander people living in appropriately sized housing, as well as ensuring that all Aboriginal and Torres Strait Islander communities receive essential services that meet the jurisdictional standard.');
+INSERT INTO Outcomes VALUES (10, 'Aboriginal and Torres Strait Islander people are not overrepresented in the criminal justice system.', 'This outcome focuses on reducing the rate of incarceration for Aboriginal and Torres Strait Islander adults.');
+INSERT INTO Outcomes VALUES (11, 'Aboriginal and Torres Strait Islander young people are not overrepresented in the criminal justice system.', 'This outcome focuses on reducing the number of Aboriginal and Torres Strait Islander young people(aged 11-17 years) in detention.');
+INSERT INTO Outcomes VALUES (12, 'Aboriginal and Torres Strait Islander children are not overrepresented in the child protection system.', 'The focus of this outcome is to reduce the number of Aboriginal and Torres Strait Islander children in out-of-home care.');
+INSERT INTO Outcomes VALUES (13, 'Aboriginal and Torres Strait Islander families and households are safe.', 'This outcome aims to decrease the rate of domestic violence in Aboriginal and Torres Strait Islander households as much as possible.');
+INSERT INTO Outcomes VALUES (14, 'Aboriginal and Torres Strait Islander people enjoy high levels of social and emotional wellbeing.', 'The goal of this outcome is to reduce the suicide rate of Aborignal and Torres Strait Islander people as much as possible.');
+INSERT INTO Outcomes VALUES (15, 'Aboriginal and Torres Strait Islander people maintain a distinctive cultural, spiritual, physical and economic relationship with their land and waters.', 'The focus of this outcome is to increase the landmass in Australia and areas in the sea subject to Aboriginal and Torres Strait Islander people''s legal rights and interests');
+INSERT INTO Outcomes VALUES (16, 'Aboriginal and Torres Strait Islander cultures and languages are strong, supported and flourishing.', 'This outcome''s goal is to increase the number of Aboriginal and Torres Strait Islander languages being spoken.');
+INSERT INTO Outcomes VALUES (17, 'Aboriginal and Torres Strait Islander people have access to information and services enabling participation in informed decision-making regarding their own lives.', 'This outcome focuses on icreasing the number of Aboriginal and Torres Strait Islander people who have equal levels of digital inclusion, such as being able to access the internet at home.');
