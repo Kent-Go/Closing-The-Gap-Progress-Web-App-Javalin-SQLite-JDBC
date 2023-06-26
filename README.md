@@ -1,5 +1,6 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8815825&assignment_repo_type=AssignmentRepo)
 # Closing The Gap Progress Web App RMIT Studio Project (Semester 2 - September 2022)
+Programming Studio 1 (COSC2803)
 
 Closing the Gap Progress Web App aims to address the social challenge: Closing the Gap, through assisting the Agreement parties in viewing the progress made by each party in overcoming the 17 socioeconomic inequalities faced by Aboriginal and Torres Strait Islander people, and empowering Aboriginal people&apos;s capability in accessing all related data and information digitally to make informed decision-makings with the governments in order to accelerate the Agreement&apos;s progress.
 
